@@ -1,0 +1,1188 @@
+{
+    "category": [
+        {
+            "id": "1",
+            "name": "2U1"
+        },
+        {
+            "id": "2",
+            "name": "2U2"
+        },
+        {
+            "id": "3",
+            "name": "2U3"
+        },
+        {
+            "id": "4",
+            "name": "2U4"
+        },
+        {
+            "id": "5",
+            "name": "2U5"
+        },
+        {
+            "id": "6",
+            "name": "2U6"
+        },
+        {
+            "id": "7",
+            "name": "2U7"
+        },
+        {
+            "id": "8",
+            "name": "2U8"
+        },
+        {
+            "id": "9",
+            "name": "2U9"
+        },
+        {
+            "id": "10",
+            "name": "2A1"
+        },
+        {
+            "id": "11",
+            "name": "2A2"
+        },
+        {
+            "id": "12",
+            "name": "2A3"
+        },
+        {
+            "id": "13",
+            "name": "2A4"
+        },
+        {
+            "id": "14",
+            "name": "2A5"
+        },
+        {
+            "id": "15",
+            "name": "2A6"
+        }
+    ],
+    "restriction": [
+        {
+            "id": "1",
+            "type": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic"
+        },
+        {
+            "id": "2",
+            "type": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building"
+        },
+        {
+            "id": "3",
+            "type": "Height",
+            "details": "Up to 1m"
+        },
+        {
+            "id": "4",
+            "type": "Height",
+            "details": "Above 1m"
+        },
+        {
+            "id": "5",
+            "type": "Height",
+            "details": "Up to 2m"
+        },
+        {
+            "id": "6",
+            "type": "Height",
+            "details": "Above 2m"
+        },
+        {
+            "id": "7",
+            "type": "Planning constraints",
+            "details": "Listed building"
+        },
+        {
+            "id": "8",
+            "type": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project"
+        },
+        {
+            "id": "9",
+            "type": "Planning constraints",
+            "details": "Article 2(4) Land"
+        },
+        {
+            "id": "10",
+            "type": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project"
+        },
+        {
+            "id": "11",
+            "type": "Planning constraints",
+            "details": "AONB"
+        },
+        {
+            "id": "12",
+            "type": "Planning constraints",
+            "details": "Works affecting TPO"
+        },
+        {
+            "id": "13",
+            "type": "Other",
+            "details": "Permitted development rights removed with previous planning"
+        },
+        {
+            "id": "14",
+            "type": "Other",
+            "details": "New build property - restrictions applied"
+        }
+    ],
+    "categoryRestriction": [
+        {
+            "categoryId": "1",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "1",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "2",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "3",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "4",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "5",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "6",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "7",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "8",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "9",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "2",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "4",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "5",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "6",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "7",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "8",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "9",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "10",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "11",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "12",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "13",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "10",
+            "restrictionId": "14",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "2",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "4",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "5",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "6",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "7",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "8",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "9",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "10",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "11",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "12",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "13",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "11",
+            "restrictionId": "14",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "12",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "2",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "4",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "5",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "7",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "8",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "9",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "10",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "11",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "12",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "13",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "13",
+            "restrictionId": "14",
+            "permissionRequired": false
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "14",
+            "restrictionId": "14",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "1",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "2",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "3",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "4",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "5",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "6",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "7",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "8",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "9",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "10",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "11",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "12",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "13",
+            "permissionRequired": true
+        },
+        {
+            "categoryId": "15",
+            "restrictionId": "14",
+            "permissionRequired": true
+        }
+    ]
+}

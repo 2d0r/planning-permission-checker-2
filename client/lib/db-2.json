@@ -1,0 +1,1082 @@
+{
+    "2U1" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2U2" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2U3" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2U4" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2U5" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2U6" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2U7" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2U8" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2U9" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2A1" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": false
+        }
+    ],
+    "2A2" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": false
+        }
+    ],
+    "2A3" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ],
+    "2A4" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": false
+        }
+    ],
+    "2A5" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": false
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": false
+        }
+    ],
+    "2A6" : [
+        {
+            "restriction": "Location",
+            "details": "Adjacent to a highway used by vehicular traffic",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Location",
+            "details": "Gate, fence, wall or other means of enclosure face onto a property with a listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 1m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Up to 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Height",
+            "details": "Above 2m",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Listed building",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(3) Land removing permitted development rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 2(4) Land",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Article 4 Directive removing the PD rights for the project",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "AONB",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Planning constraints",
+            "details": "Works affecting TPO",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "Permitted development rights removed with previous planning ",
+            "permissionRequired": true
+        },
+        {
+            "restriction": "Other",
+            "details": "New build property - restrictions applied",
+            "permissionRequired": true
+        }
+    ]
+}

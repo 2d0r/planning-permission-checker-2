@@ -1,0 +1,15 @@
+Restrictions,Details,2U1,2U2,2U3,2U4,2U5,2U6,2U7,2U8,2U9,2A1,2A2,2A3,2A4,2A5,2A6
+Location,Adjacent to a highway used by vehicular traffic,y,y,y,y,y,y,y,y,y,y,y,y,n,n,y
+Location,"Gate, fence, wall or other means of enclosure face onto a property with a listed building",y,y,y,y,y,y,y,y,y,n,n,y,y,y,y
+Height,Up to 1m,y,y,y,y,y,y,y,y,y,y,y,y,n,n,y
+Height,Above 1m,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Height,Up to 2m,y,y,y,y,y,y,y,y,y,n,n,y,y,y,y
+Height,Above 2m,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Planning constraints,Listed building,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Planning constraints,Article 2(3) Land removing permitted development rights for the project,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Planning constraints,Article 2(4) Land,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Planning constraints,Article 4 Directive removing the PD rights for the project,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Planning constraints,AONB,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Planning constraints,Works affecting TPO,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Other,Permitted development rights removed with previous planning ,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
+Other,New build property - restrictions applied,y,y,y,y,y,y,y,y,y,n,n,y,n,n,y
