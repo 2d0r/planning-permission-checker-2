@@ -5,8 +5,10 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)
 
+# Option 1: Use CSV
 df = pd.read_csv('./lib/planning-permission.csv')
 
+# Option 2: Use mock database in JSON
 categoriesDf = pd.read_json('./lib/category.json')
 restrictionsDf = pd.read_json('./lib/restriction.json')
 categoriesRestrictionsDf = pd.read_json('./lib/categoryRestriction.json')
