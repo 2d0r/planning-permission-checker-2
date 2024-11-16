@@ -34,11 +34,9 @@ export default function Home() {
   const [ restrictionDetailsList, setRestrictionDetailsList ] = useState<string[]>([]);
   const [ database, setDatabase ] = useState<Database>();
   const [ formData, setFormData ] = useState<FormDataType>({category: '', restrictionType: '', restrictionDetails: ''});
-  const [ warningMessage, setWarningMessage ] = useState<string>('');
 
   const categories = database?.categories.map((cat: any) => cat.name);
   const restrictionTypes = removeDuplicates(database?.restrictions.map(el => el.type) || []);
-  const formIsFilled = Object.values(formData).filter(el => el === '').length === 0;
 
   const handleSubmit = async (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault();
@@ -89,7 +87,8 @@ export default function Home() {
           <div className='flex gap-4 items-center flex-col sm:flex-row'>
             <label htmlFor='Category' className='sm:w-1/2'>Category</label>
             <select name='Restriction Type' 
-              className='w-60 rounded-full border dark:bg-transparent border-solid border-transparent dark:border-white transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5'
+              className='w-60 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              dark:bg-transparent dark:border-white dark:text-white'
               onChange={(event) => {
                 setFormData(prevData => ({ ...prevData, category: event.target.value }))
               }}
@@ -103,7 +102,8 @@ export default function Home() {
           <div className='flex gap-4 items-center justify-between flex-col sm:flex-row'>
             <label htmlFor='Restriction Type' className='sm:w-1/2'>Restriction Type</label>
             <select name='Restriction Type' 
-              className='w-60 rounded-full border dark:bg-transparent border-solid border-transparent dark:border-white transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40'
+              className='w-60 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              dark:bg-transparent dark:border-white dark:text-white'
               onChange={(event) => {
                 setFormData(prevData => ({...prevData, restrictionType: event.target.value, restrictionDetails: ''}))
               }}
@@ -118,7 +118,8 @@ export default function Home() {
           <div className='flex gap-4 items-center flex-col sm:flex-row'>
             <label htmlFor='Restriction Details' className='sm:w-1/2'>Restriction Details</label>
             <select name='Restriction Details' 
-              className='w-60 rounded-full border dark:bg-transparent border-solid border-transparent dark:border-white transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40'
+              className='w-60 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              dark:bg-transparent dark:border-white dark:text-white'
               onChange={(event) => {
                 setFormData(prevData => ({...prevData, restrictionDetails: event.target.value}))
               }}
@@ -133,7 +134,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col w-full gap-4 items-center justify-center pt-6'>
           { message ? <span className='text-xl mt-4 animate-bounce'>{message}</span>
-            : <span className='text-gray-300 mt-4 text-lg'>Add more info</span>
+            : <span className='text-grey-300 dark:text-white/40 mt-4 text-lg'>Add more info</span>
           }
           </div>
         </form>
