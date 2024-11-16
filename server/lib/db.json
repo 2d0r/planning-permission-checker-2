@@ -1,67 +1,82 @@
 {
-    "category": [
+    "categories": [
         {
             "id": "1",
-            "name": "2U1"
+            "name": "2U1",
+            "permissionRequired": true
         },
         {
             "id": "2",
-            "name": "2U2"
+            "name": "2U2",
+            "permissionRequired": true
         },
         {
             "id": "3",
-            "name": "2U3"
+            "name": "2U3",
+            "permissionRequired": true
         },
         {
             "id": "4",
-            "name": "2U4"
+            "name": "2U4",
+            "permissionRequired": true
         },
         {
             "id": "5",
-            "name": "2U5"
+            "name": "2U5",
+            "permissionRequired": true
         },
         {
             "id": "6",
-            "name": "2U6"
+            "name": "2U6",
+            "permissionRequired": true
         },
         {
             "id": "7",
-            "name": "2U7"
+            "name": "2U7",
+            "permissionRequired": true
         },
         {
             "id": "8",
-            "name": "2U8"
+            "name": "2U8",
+            "permissionRequired": true
         },
         {
             "id": "9",
-            "name": "2U9"
+            "name": "2U9",
+            "permissionRequired": true
         },
         {
             "id": "10",
-            "name": "2A1"
+            "name": "2A1",
+            "permissionRequired": null
         },
         {
             "id": "11",
-            "name": "2A2"
+            "name": "2A2",
+            "permissionRequired": null
         },
         {
             "id": "12",
-            "name": "2A3"
+            "name": "2A3",
+            "permissionRequired": null
         },
         {
             "id": "13",
-            "name": "2A4"
+            "name": "2A4",
+            "permissionRequired": null
         },
         {
             "id": "14",
-            "name": "2A5"
+            "name": "2A5",
+            "permissionRequired": null
         },
         {
             "id": "15",
-            "name": "2A6"
+            "name": "2A6",
+            "permissionRequired": "varies"
         }
     ],
-    "restriction": [
+    "restrictions": [
         {
             "id": "1",
             "type": "Location",
@@ -133,7 +148,7 @@
             "details": "New build property - restrictions applied"
         }
     ],
-    "categoryRestriction": [
+    "categoriesRestrictions": [
         {
             "categoryId": "1",
             "restrictionId": "1",
