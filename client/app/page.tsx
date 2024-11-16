@@ -2,25 +2,7 @@
 
 import Image from 'next/image';
 import { FormEvent, useEffect, useState } from 'react';
-import { removeDuplicates } from '@/lib/utils';
 import './globals.css';
-
-type Database = {
-  categories: {
-    id: string,
-    name: string,
-  }[],
-  restrictions: {
-    id: string,
-    type: string,
-    details: string,
-  }[],
-  restrictionsCategories: {
-    categoryId: string,
-    restrictionId: string,
-    permissionRequirement: boolean,
-  }[]
-}
 
 type FormDataType = {
   category: string,
@@ -31,12 +13,10 @@ type FormDataType = {
 export default function Home() {
 
   const [ message, setMessage ] = useState('');
-  const [ restrictionDetailsList, setRestrictionDetailsList ] = useState<string[]>([]);
-  const [ database, setDatabase ] = useState<Database>();
   const [ formData, setFormData ] = useState<FormDataType>({category: '', restrictionType: '', restrictionDetails: ''});
-
-  const categories = database?.categories.map((cat: any) => cat.name);
-  const restrictionTypes = removeDuplicates(database?.restrictions.map(el => el.type) || []);
+  const [ categories, setCategories ] = useState<string[]>([]);
+  const [ restrictionDetailsList, setRestrictionDetailsList ] = useState<string[]>([]);
+  const [ restrictionTypes, setRestrictionTypes ] = useState<string[]>([]);
 
   const handleSubmit = async (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault();
@@ -59,21 +39,41 @@ export default function Home() {
     setMessage(result.result === 'Yes' ? '⚠️  Permission Required  ⚠️' : result.result === 'No' ? '🟢  Permission not required  🟢' : '');
   };
 
+  // Fetch categories on load
   useEffect(() => {
-    fetch('http://localhost:8080/api/python')
+    fetch('http://localhost:8080/get-categories')
     .then((response) => response.json())
     .then((data) => {
-      setDatabase(data.db);
+      setCategories(data.body);
+      console.log('categories', data.body)
     });
   }, []);
 
-  // Update restriction details dropdown when new restriction type is selected
+  // Fetch restrictionTypes on selecting category
   useEffect(() => {
-    const newRestrictionDetailsList = database?.restrictions.filter(restr => restr.type === formData.restrictionType).map(el => el.details);
-    setRestrictionDetailsList(newRestrictionDetailsList || []);
+    if (formData.category) {
+      fetch('http://localhost:8080/get-restrictionTypes')
+      .then((response) => response.json())
+      .then((data) => {
+        setRestrictionTypes(data.body);
+      });
+    }
+  }, [formData.category]);
+
+  // Fetch filtered restrictions based on selected restrictionType
+  useEffect(() => {
+    if (formData.restrictionType) {
+      fetch(`http://localhost:8080/get-restrictionDetailsList?filter=${formData.restrictionType}`)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log('detailsList', data.body)
+        setRestrictionDetailsList(data.body);
+      });
+    }
+    
   }, [formData.restrictionType]);
 
-  // Update result as soon as form is updated
+  // Update result everytime form is updated
   useEffect(() => {
     setMessage('');
     handleSubmit();
@@ -87,10 +87,17 @@ export default function Home() {
           <div className='flex gap-4 items-center flex-col sm:flex-row'>
             <label htmlFor='Category' className='sm:w-1/2'>Category</label>
             <select name='Restriction Type' 
-              className='w-60 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
-              dark:bg-transparent dark:border-white dark:text-white'
+              className='w-60 rounded-full border border-solid bg-transparent border-transparent transition-colors flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              text-sm sm:text-base text-black border-black
+              dark:border-white dark:text-white'
               onChange={(event) => {
-                setFormData(prevData => ({ ...prevData, category: event.target.value }))
+                const newCategory = event.target.value
+                setFormData(prevData => ({ 
+                  ...prevData,
+                  category: newCategory,
+                  restrictionType: newCategory ? prevData.restrictionType : '',
+                  restrictionDetails: newCategory ? prevData.restrictionDetails : '',
+                }))
               }}
             >
               <option value=''>Select category</option>
@@ -102,12 +109,14 @@ export default function Home() {
           <div className='flex gap-4 items-center justify-between flex-col sm:flex-row'>
             <label htmlFor='Restriction Type' className='sm:w-1/2'>Restriction Type</label>
             <select name='Restriction Type' 
-              className='w-60 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
-              dark:bg-transparent dark:border-white dark:text-white'
+              className='w-60 rounded-full border border-solid bg-transparent border-transparent transition-colors flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              text-sm sm:text-base text-black border-black
+              dark:border-white dark:text-white'
               onChange={(event) => {
                 setFormData(prevData => ({...prevData, restrictionType: event.target.value, restrictionDetails: ''}))
               }}
               disabled={!formData.category}
+              value={formData.restrictionType}
             >
               <option value=''>Select type</option>
               {restrictionTypes.map((type, idx) => {
@@ -118,8 +127,9 @@ export default function Home() {
           <div className='flex gap-4 items-center flex-col sm:flex-row'>
             <label htmlFor='Restriction Details' className='sm:w-1/2'>Restriction Details</label>
             <select name='Restriction Details' 
-              className='w-60 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
-              dark:bg-transparent dark:border-white dark:text-white'
+              className='w-60 rounded-full border border-solid bg-transparent border-transparent transition-colors flex items-center justify-center text-background gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              text-sm sm:text-base text-black border-black 
+              dark:border-white dark:text-white'
               onChange={(event) => {
                 setFormData(prevData => ({...prevData, restrictionDetails: event.target.value}))
               }}
