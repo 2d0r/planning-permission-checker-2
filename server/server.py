@@ -37,14 +37,14 @@ def find_if_permission_required(form_data):
     return 'Yes' if permissionRequired else 'No' if permissionRequired == False else None
 
 # api routes
-@app.route('/get-categories', methods=['GET'])
+@app.route('/api/get-categories', methods=['GET'])
 def get_categories():
     return jsonify({
         'message': 'Sending categories list',
         'body': [el['name'] for el in data['categories']],
     })
 
-@app.route('/get-restrictionTypes', methods=['GET'])
+@app.route('/api/get-restrictionTypes', methods=['GET'])
 def get_restriction_types():
     restrictionTypes = remove_duplicates([el['type'] for el in data['restrictions']])
     return jsonify({
@@ -52,7 +52,7 @@ def get_restriction_types():
         'body': restrictionTypes,
     })
 
-@app.route('/get-restrictionDetailsList', methods=['GET'])
+@app.route('/api/get-restrictionDetailsList', methods=['GET'])
 def return_home():
     restrictionType = request.args.get('filter')
     print('restrictionType from next', restrictionType)
@@ -67,7 +67,7 @@ def return_home():
         'body': restrictionDetailsList,
     })
 
-@app.route('/submit-form', methods=['POST'])
+@app.route('/api/submit-form', methods=['POST'])
 def submit_form():
     form_data = request.json  # Get JSON payload
     result = find_if_permission_required(form_data)

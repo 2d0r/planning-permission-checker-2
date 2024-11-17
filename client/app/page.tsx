@@ -27,7 +27,7 @@ export default function Home() {
 
     console.log('Sending formData for processing', formData);
 
-    const response = await fetch('http://localhost:8080/submit-form', {
+    const response = await fetch('http://localhost:8080/api/submit-form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -41,7 +41,7 @@ export default function Home() {
 
   // Fetch categories on load
   useEffect(() => {
-    fetch('http://localhost:8080/get-categories')
+    fetch('http://localhost:8080/api/get-categories')
     .then((response) => response.json())
     .then((data) => {
       setCategories(data.body);
@@ -52,7 +52,7 @@ export default function Home() {
   // Fetch restrictionTypes on selecting category
   useEffect(() => {
     if (formData.category) {
-      fetch('http://localhost:8080/get-restrictionTypes')
+      fetch('http://localhost:8080/api/get-restrictionTypes')
       .then((response) => response.json())
       .then((data) => {
         setRestrictionTypes(data.body);
@@ -63,7 +63,7 @@ export default function Home() {
   // Fetch filtered restrictions based on selected restrictionType
   useEffect(() => {
     if (formData.restrictionType) {
-      fetch(`http://localhost:8080/get-restrictionDetailsList?filter=${formData.restrictionType}`)
+      fetch(`http://localhost:8080/api/get-restrictionDetailsList?filter=${formData.restrictionType}`)
       .then((response) => response.json())
       .then((data) => {
         console.log('detailsList', data.body)
@@ -87,7 +87,7 @@ export default function Home() {
           <div className='flex gap-4 items-center flex-col sm:flex-row'>
             <label htmlFor='Category' className='sm:w-1/2'>Category</label>
             <select name='Restriction Type' 
-              className='w-60 rounded-full border border-solid bg-transparent border-transparent transition-colors flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              className='w-60 rounded-full border border-solid bg-transparent transition-colors flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
               text-sm sm:text-base text-black border-black
               dark:border-white dark:text-white'
               onChange={(event) => {
@@ -109,7 +109,7 @@ export default function Home() {
           <div className='flex gap-4 items-center justify-between flex-col sm:flex-row'>
             <label htmlFor='Restriction Type' className='sm:w-1/2'>Restriction Type</label>
             <select name='Restriction Type' 
-              className='w-60 rounded-full border border-solid bg-transparent border-transparent transition-colors flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              className='w-60 rounded-full border border-solid bg-transparent transition-colors flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
               text-sm sm:text-base text-black border-black
               dark:border-white dark:text-white'
               onChange={(event) => {
@@ -127,7 +127,7 @@ export default function Home() {
           <div className='flex gap-4 items-center flex-col sm:flex-row'>
             <label htmlFor='Restriction Details' className='sm:w-1/2'>Restriction Details</label>
             <select name='Restriction Details' 
-              className='w-60 rounded-full border border-solid bg-transparent border-transparent transition-colors flex items-center justify-center text-background gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
+              className='w-60 rounded-full border border-solid bg-transparent transition-colors flex items-center justify-center text-background gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
               text-sm sm:text-base text-black border-black 
               dark:border-white dark:text-white'
               onChange={(event) => {
