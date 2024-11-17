@@ -18,14 +18,13 @@ export default function Home() {
   const [ restrictionDetailsList, setRestrictionDetailsList ] = useState<string[]>([]);
   const [ restrictionTypes, setRestrictionTypes ] = useState<string[]>([]);
 
+  // Sending formData to server and updating result display
   const handleSubmit = async (event?: FormEvent<HTMLFormElement>) => {
     event?.preventDefault();
 
     if (!formData.category) {
       return;
     }
-
-    console.log('Sending formData for processing', formData);
 
     const response = await fetch('http://localhost:8080/api/submit-form', {
       method: 'POST',
@@ -45,7 +44,6 @@ export default function Home() {
     .then((response) => response.json())
     .then((data) => {
       setCategories(data.body);
-      console.log('categories', data.body)
     });
   }, []);
 
@@ -66,7 +64,6 @@ export default function Home() {
       fetch(`http://localhost:8080/api/get-restrictionDetailsList?filter=${formData.restrictionType}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log('detailsList', data.body)
         setRestrictionDetailsList(data.body);
       });
     }
@@ -87,9 +84,9 @@ export default function Home() {
           <div className='flex gap-4 items-center flex-col sm:flex-row'>
             <label htmlFor='Category' className='sm:w-1/2'>Category</label>
             <select name='Restriction Type' 
-              className='w-60 rounded-full border border-solid bg-transparent transition-colors flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
-              text-sm sm:text-base text-black border-black
-              dark:border-white dark:text-white'
+              className='w-60 flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5
+              bg-transparent rounded-full border border-solid border-foreground text-foreground text-sm sm:text-base transition-colors
+              dark:border-foreground dark:text-foreground disabled:opacity-40'
               onChange={(event) => {
                 const newCategory = event.target.value
                 setFormData(prevData => ({ 
@@ -109,9 +106,9 @@ export default function Home() {
           <div className='flex gap-4 items-center justify-between flex-col sm:flex-row'>
             <label htmlFor='Restriction Type' className='sm:w-1/2'>Restriction Type</label>
             <select name='Restriction Type' 
-              className='w-60 rounded-full border border-solid bg-transparent transition-colors flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
-              text-sm sm:text-base text-black border-black
-              dark:border-white dark:text-white'
+              className='w-60 flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5
+              bg-transparent rounded-full border border-solid border-foreground text-foreground text-sm sm:text-base transition-colors
+              dark:border-foreground dark:text-foreground disabled:opacity-40'
               onChange={(event) => {
                 setFormData(prevData => ({...prevData, restrictionType: event.target.value, restrictionDetails: ''}))
               }}
@@ -127,9 +124,9 @@ export default function Home() {
           <div className='flex gap-4 items-center flex-col sm:flex-row'>
             <label htmlFor='Restriction Details' className='sm:w-1/2'>Restriction Details</label>
             <select name='Restriction Details' 
-              className='w-60 rounded-full border border-solid bg-transparent transition-colors flex items-center justify-center text-background gap-2 h-10 sm:h-12 px-4 sm:px-5 disabled:opacity-40
-              text-sm sm:text-base text-black border-black 
-              dark:border-white dark:text-white'
+              className='w-60 flex items-center justify-center gap-2 h-10 sm:h-12 px-4 sm:px-5
+              bg-transparent rounded-full border border-solid border-foreground text-foreground text-sm sm:text-base transition-colors
+              dark:border-foreground dark:text-foreground disabled:opacity-40'
               onChange={(event) => {
                 setFormData(prevData => ({...prevData, restrictionDetails: event.target.value}))
               }}
@@ -143,14 +140,14 @@ export default function Home() {
             </select>
           </div>
           <div className='flex flex-col w-full gap-4 items-center justify-center pt-6'>
-          { message ? <span className='text-xl mt-4 animate-bounce'>{message}</span>
-            : <span className='text-grey-300 dark:text-white/40 mt-4 text-lg'>Add more info</span>
+          { message ? 
+            <span className='text-xl mt-4 animate-bounce'>{message}</span>
+            : <span className='text-black/40 dark:text-white/40 mt-4'>Add more info to check</span>
           }
           </div>
         </form>
-
-        
       </main>
+
       <footer className='row-start-3 flex gap-6 flex-wrap items-center justify-center'>
         <a
           className='flex items-center gap-2 hover:underline hover:underline-offset-4'
@@ -158,13 +155,7 @@ export default function Home() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <Image
-            aria-hidden
-            src='/window.svg'
-            alt='Window icon'
-            width={16}
-            height={16}
-          />
+          <Image aria-hidden src='/window.svg' alt='Window icon' width={16} height={16} />
           Built by 2d0r
         </a>
         <a
@@ -173,13 +164,7 @@ export default function Home() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <Image
-            aria-hidden
-            src='/globe.svg'
-            alt='Globe icon'
-            width={16}
-            height={16}
-          />
+          <Image aria-hidden src='/globe.svg' alt='Globe icon' width={16} height={16} />
           Portfolio →
         </a>
       </footer>

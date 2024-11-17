@@ -1,4 +1,4 @@
-## Running the app
+## Setup
 
 ```bash
 git clone https://github.com/2d0r/planning-permission-checker-2.git
@@ -10,16 +10,19 @@ cd path/to/planning-permission-checker-2/server
 python3 server.py
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 
-## Approach
+## Stack
 
-Stack:
-- front-end: next.js, tailwind
-- back-end: python, flask
+- Front-end: next.js, tailwind
+- Back-end: python, flask
 
-The backend loads and sends the database to the client, via API request, to populate the form.
-Once the user interacts with the form, an API request is sent to the python/flask server. 
-Here I use pandas to convert the mock database into a dataframe, and use the answers to filter it and retrieve the needed information.
+Separate server-side and client-side code.
+Interaction via api routes.
 
+## Spreadsheet
+
+Here is the simplified spreadsheet, to the best of my understanding of the one in the assignment.
+This reflects the app's database.
+https://docs.google.com/spreadsheets/d/1KzYVJcvqSrJ6gPi5A3iPwNKiowazOSYdLF70xrwgV-Q/edit?usp=sharing

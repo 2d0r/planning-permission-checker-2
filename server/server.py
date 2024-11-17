@@ -7,10 +7,7 @@ from lib.utils import remove_duplicates
 app = Flask(__name__)
 CORS(app)
 
-# Option 1: Use CSV
-df = pd.read_csv('./lib/planning-permission.csv')
-
-# Option 2: Use mock database in JSON
+# Load JSON mock database in JSON
 with open('./lib/db.json', 'r') as file:
     data = json.load(file)
 
@@ -21,7 +18,6 @@ categoriesRestrictionsDf = pd.DataFrame(data['categoriesRestrictions'])
 
 def find_if_permission_required(form_data):
     category = form_data['category']
-    restrictionType = form_data['restrictionType']
     restrictionDetails = form_data['restrictionDetails']
 
     permissionRequiredForWholeCategory = categoriesDf.loc[categoriesDf['name'] == category]['permissionRequired'].iloc[0]
